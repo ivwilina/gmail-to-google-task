@@ -1,0 +1,22 @@
+{
+  "name": "email-to-task-converter",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "setup": "node src/GOOGLE_TOKEN_JSON_GENERATE.js"
+  },
+  "keywords": [],
+  "author": "nza",
+  "license": "ISC",
+  "description": "Convert starred emails in Gmail to tasks in Google Tasks",
+  "dependencies": {
+    "@google/genai": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "googleapis": "^160.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
